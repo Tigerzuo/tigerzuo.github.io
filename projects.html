@@ -1,0 +1,31 @@
+---
+title: Projects
+---
+  <div class="container">
+  </div>
+
+  <div class="project-container">
+    <h1>Projects</h1>
+    <p>Some of the things I've dabbled on.</p>
+    <br><center>
+    <a href="#"><span class="label label-danger">Random</span></a>
+    <a href="#"><span class="label label-danger light">Coding</span></a></center>
+  </div>
+
+  {% for post in site.categories.projects %}
+  <div class="container">
+    <div class="project-box">
+      <div class="row">
+        <div class="col-md-3 project-image">
+          <img src="http://lorempixel.com/g/400/400/">
+        </div>
+        <div class="col-md-9 project-post">
+          <a href="{{ site.baseurl }}{{ post.url }}" style="color:black">
+            <h1>{{ post.title }}</h1><h4>{{ post.subheading }}</h4>
+          <p class="meta"><small>&nbsp;<i class="fa fa-calendar-o"></i> {{ post.date | date_to_string | date: "%b %-d, %Y"  }}</small></p><hr/>
+          {{ post.excerpt }}
+        </div>
+      </div>
+    </div>
+  </div>
+  {% endfor %}

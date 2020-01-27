@@ -1,0 +1,28 @@
+name: Tiger Zuo
+author: Tiger Zuo
+baseurl: /tiger-zuo
+description: Welcome to my personal site!
+github: http://www.github.com/Tigerzuo
+linkedin: https://www.linkedin.com/in/tigerzuo/
+email: tigerzuo[at]gmail.com
+location: Outer Space
+
+##Make sure to edit the above fields, especially for disqus.
+
+
+highlighter: rouge
+markdown: kramdown
+redcarpet:
+  extensions: ["tables"]
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
