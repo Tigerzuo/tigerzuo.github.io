@@ -6,15 +6,15 @@ categories: [posts]
 
 ### Requirement: Majave or older
 
-![Desktop Goose](https://gfycat.com/grandmaddove)
+[Desktop Goose](https://gfycat.com/grandmaddove)
 
-First download the ![Installer for Wine stable](https://dl.winehq.org/wine-builds/macosx/download.html) for macos
+First download the [Installer for Wine stable](https://dl.winehq.org/wine-builds/macosx/download.html) for macos
 
 Next open the installer in your downloads folder and install wine
 
 Make sure to install 64 bit support
 
-Then Download ![Desktop Goose](https://samperson.itch.io/desktop-goose)
+Then Download [Desktop Goose](https://samperson.itch.io/desktop-goose)
 
 Unzip the Desktop Goose zip file
 
